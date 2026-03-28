@@ -5,7 +5,7 @@ from pages.login_page import LoginPage
 @pytest.fixture
 def driver():
     driver = webdriver.Chrome()
-    driver.get("https://www.lcell.bnu.edu/")
+    driver.get("https://www.lcell.bnu.edu.cn/")
     yield driver
     driver.quit()
 
